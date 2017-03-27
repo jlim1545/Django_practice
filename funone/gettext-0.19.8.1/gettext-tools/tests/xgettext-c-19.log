@@ -1,0 +1,7 @@
+err1.c:2: warning: invalid Unicode character
+xg-c-19.c:10: warning: internationalized messages should not contain the '\a' escape sequence
+xg-c-19.c:10: warning: internationalized messages should not contain the '\b' escape sequence
+xg-c-19.c:10: warning: internationalized messages should not contain the '\f' escape sequence
+xg-c-19.c:10: warning: internationalized messages should not contain the '\r' escape sequence
+xg-c-19.c:10: warning: internationalized messages should not contain the '\v' escape sequence
+PASS xgettext-c-19 (exit status: 0)

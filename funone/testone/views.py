@@ -12,3 +12,6 @@ from django.shortcuts import render
 
 def index(request):
 	return render(request, "testone/index.html", {})
+
+def home_files(reqeuest, filename):
+	return render(request, filename, {}, content_type="text/plain")

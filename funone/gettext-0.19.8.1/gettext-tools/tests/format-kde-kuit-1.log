@@ -1,0 +1,7 @@
+f-kd-1-1.in:1: warning: Although being used in a format string position, the msgid is not a valid KDE KUIT format string. Reason: error while parsing: Premature end of data in tag kuit line 1
+                        
+f-kd-1-2.in:1: warning: Although being used in a format string position, the msgid is not a valid KDE KUIT format string. Reason: error while parsing: Premature end of data in tag kuit line 1
+                        
+f-kd-1-3.in:1: warning: Although being used in a format string position, the msgid is not a valid KDE KUIT format string. Reason: error while parsing: Opening and ending tag mismatch: filename line 1 and xfilename
+                        
+PASS format-kde-kuit-1 (exit status: 0)

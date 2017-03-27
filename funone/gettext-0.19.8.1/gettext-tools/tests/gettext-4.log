@@ -1,0 +1,2 @@
+Skipping test: no traditional french locale is installed
+SKIP gettext-4 (exit status: 77)

@@ -1,0 +1,2 @@
+Skipping test: tclsh not found or Tcl too old
+SKIP msgunfmt-tcl-1 (exit status: 77)

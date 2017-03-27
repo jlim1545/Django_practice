@@ -1,0 +1,2 @@
+Skipping test: C# compiler not found
+SKIP msgunfmt-csharp-1 (exit status: 77)

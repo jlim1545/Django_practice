@@ -1,0 +1,2 @@
+Skipping test: no japanese EUC-JP locale is installed
+SKIP recode-sr-latin-2 (exit status: 77)

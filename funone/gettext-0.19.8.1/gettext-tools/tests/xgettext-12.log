@@ -1,0 +1,3 @@
+xg-test12.c:1: ambiguous argument specification for keyword 'ngettext'
+xg-test12.c:2: ambiguous argument specification for keyword 'ngettext'
+PASS xgettext-12 (exit status: 0)

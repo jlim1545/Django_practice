@@ -1,0 +1,2 @@
+Skipping test: Pascal compiler ppc386 or ppcx64 not found
+SKIP lang-pascal (exit status: 77)

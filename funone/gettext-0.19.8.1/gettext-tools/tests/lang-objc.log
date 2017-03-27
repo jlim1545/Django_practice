@@ -1,0 +1,2 @@
+Skipping test: Objective C compiler not found
+SKIP lang-objc (exit status: 77)

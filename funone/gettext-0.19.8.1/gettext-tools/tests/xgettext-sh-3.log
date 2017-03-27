@@ -1,0 +1,6 @@
+xg-sh-3.sh:2: warning: internationalized messages should not contain the '\a' escape sequence
+xg-sh-3.sh:2: warning: internationalized messages should not contain the '\b' escape sequence
+xg-sh-3.sh:2: warning: internationalized messages should not contain the '\f' escape sequence
+xg-sh-3.sh:2: warning: internationalized messages should not contain the '\r' escape sequence
+xg-sh-3.sh:2: warning: internationalized messages should not contain the '\v' escape sequence
+PASS xgettext-sh-3 (exit status: 0)

@@ -1,0 +1,2 @@
+xg-vala-1.err.vala:3: warning: regular expression literal terminated too early
+PASS xgettext-vala-1 (exit status: 0)

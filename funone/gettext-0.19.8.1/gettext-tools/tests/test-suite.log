@@ -1,0 +1,240 @@
+==================================================
+   gettext-tools 0.19.8.1: tests/test-suite.log
+==================================================
+
+# TOTAL: 412
+# PASS:  376
+# SKIP:  36
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+SKIP: gettext-3
+===============
+
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (de_DE)
+Skipping test: locale de_DE not installed
+SKIP gettext-3 (exit status: 77)
+
+SKIP: gettext-4
+===============
+
+Skipping test: no traditional french locale is installed
+SKIP gettext-4 (exit status: 77)
+
+SKIP: gettext-5
+===============
+
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (de_DE.ISO-8859-1)
+Skipping test: locale de_DE.ISO-8859-1 not installed
+SKIP gettext-5 (exit status: 77)
+
+SKIP: gettext-6
+===============
+
+Skipping test: locale de_DE.ISO-8859-1 not installed
+SKIP gettext-6 (exit status: 77)
+
+SKIP: gettext-7
+===============
+
+Skipping test: locale de_DE.ISO-8859-1 not installed
+SKIP gettext-7 (exit status: 77)
+
+SKIP: msgunfmt-csharp-1
+=======================
+
+Skipping test: C# compiler not found
+SKIP msgunfmt-csharp-1 (exit status: 77)
+
+SKIP: msgunfmt-java-1
+=====================
+
+Skipping test: Java compiler or jar not found
+SKIP msgunfmt-java-1 (exit status: 77)
+
+SKIP: msgunfmt-tcl-1
+====================
+
+Skipping test: tclsh not found or Tcl too old
+SKIP msgunfmt-tcl-1 (exit status: 77)
+
+SKIP: recode-sr-latin-1
+=======================
+
+Skipping test: no french UTF-8 locale is installed
+SKIP recode-sr-latin-1 (exit status: 77)
+
+SKIP: recode-sr-latin-2
+=======================
+
+Skipping test: no japanese EUC-JP locale is installed
+SKIP recode-sr-latin-2 (exit status: 77)
+
+SKIP: format-c-5
+================
+
+Skipping test: locale fa_IR not installed
+SKIP format-c-5 (exit status: 77)
+
+SKIP: lang-c
+============
+
+Skipping test: no french locale is installed
+SKIP lang-c (exit status: 77)
+
+SKIP: lang-c++
+==============
+
+Skipping test: no french locale is installed
+SKIP lang-c++ (exit status: 77)
+
+SKIP: lang-objc
+===============
+
+Skipping test: Objective C compiler not found
+SKIP lang-objc (exit status: 77)
+
+SKIP: lang-sh
+=============
+
+Skipping test: no french locale is installed
+SKIP lang-sh (exit status: 77)
+
+SKIP: lang-bash
+===============
+
+Skipping test: no french locale is installed
+SKIP lang-bash (exit status: 77)
+
+SKIP: lang-python-1
+===================
+
+  File "<string>", line 1
+    import sys; print sys.hexversion >= 0x20000F0
+                        ^
+SyntaxError: invalid syntax
+Skipping test: python version too old
+SKIP lang-python-1 (exit status: 77)
+
+SKIP: lang-python-2
+===================
+
+  File "<string>", line 1
+    import sys; print sys.hexversion >= 0x20300F0
+                        ^
+SyntaxError: invalid syntax
+Skipping test: python version too old
+SKIP lang-python-2 (exit status: 77)
+
+SKIP: lang-clisp
+================
+
+Skipping test: clisp not found
+SKIP lang-clisp (exit status: 77)
+
+SKIP: lang-librep
+=================
+
+Skipping test: rep not found
+SKIP lang-librep (exit status: 77)
+
+SKIP: lang-guile
+================
+
+Skipping test: guile not found
+SKIP lang-guile (exit status: 77)
+
+SKIP: lang-smalltalk
+====================
+
+Skipping test: gst not found
+SKIP lang-smalltalk (exit status: 77)
+
+SKIP: lang-java
+===============
+
+Skipping test: Java compiler or jar not found
+SKIP lang-java (exit status: 77)
+
+SKIP: lang-csharp
+=================
+
+Skipping test: C# compiler not found
+SKIP lang-csharp (exit status: 77)
+
+SKIP: lang-gawk
+===============
+
+Skipping test: no french locale is installed
+SKIP lang-gawk (exit status: 77)
+
+SKIP: lang-pascal
+=================
+
+Skipping test: Pascal compiler ppc386 or ppcx64 not found
+SKIP lang-pascal (exit status: 77)
+
+SKIP: lang-tcl
+==============
+
+Skipping test: tclsh not found or msgcat extension not present
+SKIP lang-tcl (exit status: 77)
+
+SKIP: lang-perl-1
+=================
+
+Skipping test: perl package Locale::Messages is not installed
+SKIP lang-perl-1 (exit status: 77)
+
+SKIP: lang-perl-2
+=================
+
+Skipping test: perl package libintl-perl is not installed
+SKIP lang-perl-2 (exit status: 77)
+
+SKIP: lang-php
+==============
+
+Skipping test: php not found
+SKIP lang-php (exit status: 77)
+
+SKIP: lang-lua
+==============
+
+Skipping test: lua not found
+SKIP lang-lua (exit status: 77)
+
+SKIP: lang-javascript
+=====================
+
+Skipping test: gjs not found
+SKIP lang-javascript (exit status: 77)
+
+SKIP: lang-vala
+===============
+
+Skipping test: valac not found
+SKIP lang-vala (exit status: 77)
+
+SKIP: autopoint-1
+=================
+
+Skipping test: autoconf not found
+SKIP autopoint-1 (exit status: 77)
+
+SKIP: autopoint-2
+=================
+
+Skipping test: autoconf not found
+SKIP autopoint-2 (exit status: 77)
+
+SKIP: autopoint-3
+=================
+
+Skipping test: autoconf not found
+SKIP autopoint-3 (exit status: 77)
+

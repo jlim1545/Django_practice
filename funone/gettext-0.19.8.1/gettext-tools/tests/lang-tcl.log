@@ -1,0 +1,2 @@
+Skipping test: tclsh not found or msgcat extension not present
+SKIP lang-tcl (exit status: 77)

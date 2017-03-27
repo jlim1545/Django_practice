@@ -1,0 +1,2 @@
+Skipping test: guile not found
+SKIP lang-guile (exit status: 77)

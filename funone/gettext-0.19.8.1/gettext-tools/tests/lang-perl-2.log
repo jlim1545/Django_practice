@@ -1,0 +1,2 @@
+Skipping test: perl package libintl-perl is not installed
+SKIP lang-perl-2 (exit status: 77)

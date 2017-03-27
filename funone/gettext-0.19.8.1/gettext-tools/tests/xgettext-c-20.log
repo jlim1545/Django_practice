@@ -1,0 +1,4 @@
+err0.cc:1: warning: unterminated string literal
+err0.cc:3: warning: unterminated string literal
+err1.cc:3: warning: unterminated string literal
+PASS xgettext-c-20 (exit status: 0)

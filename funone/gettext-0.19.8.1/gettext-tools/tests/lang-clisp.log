@@ -1,0 +1,2 @@
+Skipping test: clisp not found
+SKIP lang-clisp (exit status: 77)

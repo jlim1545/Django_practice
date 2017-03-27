@@ -1,0 +1,2 @@
+Skipping test: perl package Locale::Messages is not installed
+SKIP lang-perl-1 (exit status: 77)

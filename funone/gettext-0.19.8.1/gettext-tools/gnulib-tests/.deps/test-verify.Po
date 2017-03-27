@@ -1,0 +1,13 @@
+test-verify.o: test-verify.c /usr/include/stdc-predef.h ../config.h \
+ ../gnulib-lib/verify.h ../gnulib-lib/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+../gnulib-lib/verify.h:
+
+../gnulib-lib/stddef.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h:

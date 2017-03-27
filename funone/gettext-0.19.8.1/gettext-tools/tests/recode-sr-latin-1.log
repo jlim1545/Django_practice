@@ -1,0 +1,2 @@
+Skipping test: no french UTF-8 locale is installed
+SKIP recode-sr-latin-1 (exit status: 77)

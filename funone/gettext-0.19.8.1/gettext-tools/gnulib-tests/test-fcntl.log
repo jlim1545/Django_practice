@@ -1,0 +1,2 @@
+test-fcntl.c:265: assertion 'errno == EINVAL' failed
+FAIL test-fcntl (exit status: 134)

@@ -1,0 +1,6 @@
+  File "<string>", line 1
+    import sys; print sys.hexversion >= 0x20000F0
+                        ^
+SyntaxError: invalid syntax
+Skipping test: python version too old
+SKIP lang-python-1 (exit status: 77)

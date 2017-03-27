@@ -1,0 +1,2 @@
+Skipping test: lua not found
+SKIP lang-lua (exit status: 77)

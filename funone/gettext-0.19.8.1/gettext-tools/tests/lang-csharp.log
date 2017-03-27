@@ -1,0 +1,2 @@
+Skipping test: C# compiler not found
+SKIP lang-csharp (exit status: 77)

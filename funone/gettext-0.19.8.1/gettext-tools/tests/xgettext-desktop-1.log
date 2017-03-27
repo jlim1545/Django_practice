@@ -1,0 +1,5 @@
+err1.desktop:2:0: warning: missing '=' after "This"
+err2.desktop:2:0: warning: unterminated group name
+err3.desktop:3:0: warning: invalid non-blank line
+err4.desktop:2:0: warning: invalid non-blank character
+PASS xgettext-desktop-1 (exit status: 0)

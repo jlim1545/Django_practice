@@ -1,2 +1,16 @@
 {% extends "testone/base.html" %}
+{% load i18n %}
 {% block head_title %}Toy P{% endblock %}
+{% block title %}Toy Project{% endblock %}
+
+{% block content %}
+	<div class="jumbotron">
+		<div class="container">
+			<h1>{% trans "Welcome to Project Toy!" %}</h1>
+			<p>{% blocktrans %}Project Toy is a Toy project. </br> Trying out the login feature from FaceBook and Google! </br></br> If you want to learn how it was created, or create it yourself!, check www.django-tutorial.com{% endblocktrans %}</p>
+        	<p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+
+		</div>
+	</div>
+	<div class="container"></div>
+{% endblock %}

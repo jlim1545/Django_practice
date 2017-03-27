@@ -1,0 +1,2 @@
+Skipping test: locale de_DE.ISO-8859-1 not installed
+SKIP gettext-6 (exit status: 77)

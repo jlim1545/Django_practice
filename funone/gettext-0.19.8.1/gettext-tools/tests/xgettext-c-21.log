@@ -1,0 +1,7 @@
+/mnt/c/Users/joshu/Desktop/dev/gettext-0.19.8.1/gettext-tools/tests/xg-c-21.c:3: warning: Empty msgid.  It is reserved by GNU gettext:
+                                                                                          gettext("") returns the header entry with
+                                                                                          meta information, not the empty string.
+/mnt/c/Users/joshu/Desktop/dev/gettext-0.19.8.1/gettext-tools/tests/xg-c-21.c:4: warning: Empty msgid.  It is reserved by GNU gettext:
+                                                                                          gettext("") returns the header entry with
+                                                                                          meta information, not the empty string.
+PASS xgettext-c-21 (exit status: 0)

@@ -1,0 +1,3 @@
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (de_DE)
+Skipping test: locale de_DE not installed
+SKIP gettext-3 (exit status: 77)

@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Joshua Lim -- Team Lead -- <twitter>
 
 # THANKS
 
