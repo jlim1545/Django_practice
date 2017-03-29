@@ -1,4 +1,4 @@
-"""funone URL Configuration
+"""paperairplane URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.10/topics/http/urls/
@@ -15,20 +15,15 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from django.conf.urls.i18n import i18n_patterns
-from testone.views import home_files
+from django.contrib.auth import views as auth_views
+
+admin.autodiscover()
 
 urlpatterns = [
-    url(r'^(?P<filename>(robots.txt)|(humans.txt))$',
-        home_files, name='home-files'),
-    url(r'^accounts/', include('allauth.urls')),
-    url('', include('social.apps.django_app.urls', namespace='social')),
-    url(r'^testone', include('testone.urls')),
+	url(r'^airplane', include('airplane.urls')),
+    url(r'^login/$', auth_views.login, name='login'),
+    url(r'^logout/$', auth_views.logout, name='logout'),
+	url(r'^oauth/', include('social_django.urls', namespace='social')),
+    #url('', include('django.contrib.auth.urls', namespace='auth')),
     url(r'^admin/', admin.site.urls),
-    # url(r'^accounts/logout/$', 'django.contrib.auth.views.logout', {'next_page': '/'}),
 ]
-
-# urlpatterns += i18n_patterns(
-#     url(r'^testone', include('testone.urls')),
-#     url(r'^admin/', admin.site.urls),
-# )
